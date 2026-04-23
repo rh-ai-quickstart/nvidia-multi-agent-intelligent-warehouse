@@ -325,7 +325,7 @@ class NeMoRetrieverPreprocessor:
 
         Uses:
         - nv-yolox-page-elements-v1 for element detection
-        - nemoretriever-page-elements-v1 for semantic regions
+        - nemotron-page-elements-v1 for semantic regions
         """
         # Immediately use mock if no API key - don't wait for timeout
         if not self.api_key:
